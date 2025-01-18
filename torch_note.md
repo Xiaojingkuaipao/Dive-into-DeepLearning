@@ -85,3 +85,27 @@ y2 = x.transpose(1, 2)
 print(y1.shape)  # torch.Size([2, 4, 3])
 print(y2.shape)  # torch.Size([2, 4, 3])
 ```
+
+## torch.norm
+
+求2范数用的API
+
+
+
+## torch.normal
+
+- 生成正态分布的随机数，API见下面
+
+```python
+import torch
+torch.normal(mean, std, size)
+```
+
+- 基本用法就是
+
+```python
+torch.normal(0, 1, (3,4))
+```
+
+> 这个用法就是说生成了一个3*4大小的均值为0，标准差为1的tensor
+
