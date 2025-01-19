@@ -22,8 +22,8 @@ data_iter = load_array(features, labels, batch_size)
 net = nn.Sequential(nn.Linear(2, 1))
 
 # 初始化参数
-net[0].weight.data.normal_(0, 0.01)
-net[0].bias.data.fill_(0)
+net[0].weight.data.normal_(0, 10)
+net[0].bias.data.fill_(100)
 
 # 定义损失函数
 loss = torch.nn.MSELoss()
