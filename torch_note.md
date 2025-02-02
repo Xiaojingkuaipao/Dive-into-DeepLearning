@@ -109,3 +109,22 @@ torch.normal(0, 1, (3,4))
 
 > 这个用法就是说生成了一个3*4大小的均值为0，标准差为1的tensor
 
+
+
+## torch.climp
+
+- 用于将张量中的元素限制在指定的范围内。将输入张量中的每个元素调整到 `[min, max]` 区间内
+
+- ```python
+  torch.clamp(input, min=None, max=None, *, out=None) → Tensor
+  ```
+
+
+
+## torch.cat
+
+- 用于`Tensor`的拼接， dim用于指定维度，等于几就在哪个维度上进行拼接
+
+- ```py
+  torch.cat(tensors, dim=0, *, out=None) → Tensor
+  ```
