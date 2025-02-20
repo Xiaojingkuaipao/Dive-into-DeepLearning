@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" remoteFilesAllowedToDisappearOnAutoupload="false">
+  <component name="PublishConfigData" autoUpload="Always" serverName="batchcom@219.152.187.40:30002 agent" remoteFilesAllowedToDisappearOnAutoupload="false">
     <serverData>
+      <paths name="batchcom@219.152.187.40:30002 agent">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/codes/dinov2" local="X:/Program/dinov2" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="ecs-user@8.137.83.215:22 password">
         <serverdata>
           <mappings>
@@ -31,5 +38,6 @@
         </serverdata>
       </paths>
     </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
   </component>
 </project>
