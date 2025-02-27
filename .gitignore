@@ -1,3 +1,7 @@
 /data/*
 /.idea
 /.ipynb_checkpoints
+/Chapter13/submission_dog.csv
+/checkpoints
+/Chapter13/submission_cifar10_finetuning.csv
+/Chapter13/submission_cifar10.csv
